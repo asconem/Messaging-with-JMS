@@ -1,3 +1,5 @@
+package Hello;
+
 public class Email {
 
     private String to;
@@ -29,7 +31,7 @@ public class Email {
 
     @Override
     public String toString() {
-        return String.format("Email{to=%s, body=%s}", getTo(), getBody());
+        return String.format("Hello.Email{to=%s, body=%s}", getTo(), getBody());
     }
 
 }

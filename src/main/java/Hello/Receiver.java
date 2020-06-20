@@ -1,3 +1,6 @@
+package Hello;
+
+import Hello.Email;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
 
